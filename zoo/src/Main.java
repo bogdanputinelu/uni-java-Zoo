@@ -26,7 +26,15 @@ public class Main {
                 case 13 -> service.addResponsibilityToEmployee();
                 case 14 -> service.transferResponsibility();
                 case 15 -> service.showAnimalEnclosure();
-                case 16 -> {
+                case 16 -> service.employeeUpdatePhone();
+                case 17 -> service.showEmployeesSQL();
+                case 18 -> service.showBridEncSQL();
+                case 19 -> service.birdUpdateNests();
+                case 20 -> service.showMammalEncSQL();
+                case 21 -> service.mammalUpdateShade();
+                case 22 -> service.showReptileEncSQL();
+                case 23 -> service.reptileUpdateTemperature();
+                case 24 -> {
                     quit = false;
                     System.out.println("Leaving...");
                 }

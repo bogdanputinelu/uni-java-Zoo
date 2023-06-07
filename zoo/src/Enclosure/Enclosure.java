@@ -8,6 +8,11 @@ public class Enclosure {
     protected int enclosureId;
     private int surface;
     protected String name;
+
+    public String getName() {
+        return name;
+    }
+
     private int maxCapacity;
     private int currentCapacity;
     private List<Integer> animalIds;
